@@ -21,7 +21,7 @@ function max_end3(int_array){
     }
   }
   // whichever is largest, assign all elements that value
-  return ( int_array);
+  return int_array;
 }
 
 
