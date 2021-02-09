@@ -10,8 +10,18 @@
 
 
 function max_end3(int_array){
-  // Add functionality here!
-  return
+  // check first element against last element,
+  if (int_array[0] > int_array[int_array.length-1]) {
+    for (let i = 0; i < int_array.length; i++) {
+      int_array[i] = int_array[0];
+    }
+  } else {
+    for (let i = 0; i < int_array.length; i++) {
+      int_array[i] = int_array[int_array.length-1];
+    }
+  }
+  // whichever is largest, assign all elements that value
+  return ( int_array);
 }
 
 
